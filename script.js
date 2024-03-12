@@ -28,7 +28,7 @@ toggleSwitch.addEventListener("click", (e) => {
 let content = JSON.parse(localStorage.getItem("content")) || [
   {
     id: 1,
-    question: "What is the basic object of data Dictionary?",
+    question: "What is the basic object of data dictionary?",
     answer: "Domains",
     choices: ["Domains", "Documentation", "Data Models", "Dynpro"],
   },
@@ -40,13 +40,13 @@ let content = JSON.parse(localStorage.getItem("content")) || [
   },
   {
     id: 3,
-    question: "What is invalid attribute of a domain?",
+    question: "What is an invalid attribute of a domain?",
     answer: "Header",
     choices: ["Type", "Fixed Values", "Length", "Header"],
   },
   {
     id: 4,
-    question: `Command flushes the database buffers`,
+    question: `What command flushes the database buffers?`,
     answer: "$TAB",
     choices: ["$TAB", "$RESET", "$INIT", "$FREE"],
   },
@@ -102,7 +102,7 @@ let content = JSON.parse(localStorage.getItem("content")) || [
   },
   {
     id: 12,
-    question: "Where does the Busiess Logic exits in the Webdynpro?",
+    question: "Where does the Business Logic exits in the Webdynpro?",
     answer: "Assistance Class",
     choices: [
       "Methods of the view",
@@ -114,7 +114,7 @@ let content = JSON.parse(localStorage.getItem("content")) || [
   {
     id: 13,
     question:
-      "Which method do you use to read the contents of a attribute attached to the context node?",
+      "Which method do you use to read the contents of an attribute attached to the context node?",
     answer: "GET_ATTRIBUTE",
     choices: [
       "GET_ATT",
@@ -125,9 +125,9 @@ let content = JSON.parse(localStorage.getItem("content")) || [
   },
   {
     id: 14,
-    question: "Identify a Cardinality type that is not part of webdynpro?",
-    answer: "N:N",
-    choices: ["N:N", "0:1", "1:1", "0:N"],
+    question: "Identify a Cardinality type that is not part of the Webdynpro?",
+    answer: "n:n",
+    choices: ["n:n", "0:1", "1:1", "0:n"],
   },
   {
     id: 15,
@@ -138,21 +138,21 @@ let content = JSON.parse(localStorage.getItem("content")) || [
   },
   {
     id: 16,
-    question: "HIDE statement support deep structures?",
+    question: "Does HIDE statement support the deep structures?",
     answer: "False",
     choices: ["True", "False", "Both", "Not Applicable"],
   },
   {
     id: 17,
     question:
-      "You can add LESS and CSS rules in text editor that is available in?",
+      "You can add LESS and CSS rules in the text editor that is available in?",
     answer: "CSS tab",
     choices: ["Quick mode", "Expert mode", "CSS tab", "Preview"],
   },
   {
     id: 18,
     question: "What helps SAP data to be converted to OData?",
-    answer: "SAP NetWeaver Gatewaying",
+    answer: "SAP NetWeaver Gateway",
     choices: [
       "SAP NetWeaver Gateway",
       "SAP NetWeaver Portal",
@@ -169,7 +169,7 @@ let content = JSON.parse(localStorage.getItem("content")) || [
   },
   {
     id: 20,
-    question: "Full form of OData is:",
+    question: "The full form of OData is:",
     answer: "Open Data Protocol",
     choices: [
       "Other Data Protocol",
